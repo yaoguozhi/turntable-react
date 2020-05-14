@@ -1,0 +1,41 @@
+.wrapper{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left:0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+  transition: 1s;
+  background: red;
+}
+
+.wrapper .itemWrapper{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  background: blue;
+  margin-left: -5px;
+	margin-top: -5px;
+}
+
+.wrapper .itemWrapper .item{
+  transition: 1s;
+	position: absolute;
+	top: 130px;
+	width: 100px;
+  height: 100px;
+  background: yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .itemWrapper .item-active{
+  background: red;
+}
